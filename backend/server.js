@@ -1,5 +1,5 @@
 const app=require("./app")
-// const dotenv= require("dotenv")
+const dotenv= require("dotenv")
 // const EcommerceDb=require("./config/database")
 // const cloudinary=require("cloudinary")
 
@@ -11,7 +11,7 @@ const app=require("./app")
 // })
 
 //env path
-// dotenv.config({path:"backend/.env"})
+dotenv.config({path:"backend/.env"})
 
 //connecting to database
 // EcommerceDb()
@@ -44,6 +44,6 @@ app.listen(process.env.PORT,()=>{
 // https://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@github.com/AakashSoni1997/Ecommerce-Server.git
 
 
-
+ 
 
 
